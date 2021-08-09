@@ -1,0 +1,24 @@
+.top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kanri_form{
+    border: solid;
+    border-color: #e2e2e2;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.non_answer{
+    margin: 20px auto;
+    padding: 30px auto;
+    background-color: rgb(238, 223, 228);
+    text-align: center;
+    font-weight:bold;
+}
+
+.top_2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}

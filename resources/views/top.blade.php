@@ -18,7 +18,9 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <img src="img/top-1.jpg" class="img-responsive px-0" style="width: 100%;" alt="遊び場サイトトップ">
+                    <div class="px-0">
+                        <img src="img/top-1.jpg" class="img-responsive" style="width: 100%;" alt="遊び場サイトトップ">
+                    </div>
                     <div class="catch_text">
                         <h1 class="text-center">日本最大級の遊び場検索サイト</h1>
                         <h2 class="text-center"><?php  ?>00件の遊びから、自由に選んで、自由に遊ぼう</h2>
@@ -102,7 +104,7 @@
                                 <button type="submit" class="btn btn-success">検索</button>
                             </div>
                             <div class="col-sm-2">
-                                <a href="{{url('/home2')}}">
+                                <a href="{{url('/')}}">
                                     <div class="btn btn-default">検索条件リセット</div>
                                 </a>
                             </div>

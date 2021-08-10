@@ -18,5 +18,5 @@ use App\Http\Controllers\AnswerController;
 
 // play_matching サービスのhome画面を表示させる
 Route::get('/', function () {
-    return view('home');
+    return view('top');
 });
